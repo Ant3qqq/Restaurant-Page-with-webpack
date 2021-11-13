@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Petemoss&family=Yuji+Mai&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #400000;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	height: 150px;
+	background-color: #fae5de;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 40px;
+}
+nav {
+	padding-left: 120px;
+	padding-right: 120px;
+	height: 80px;
+	background-color: #fc443c;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	top: 0;
+}
+nav a {
+	flex-basis: 20%;
+	height: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fae5de;
+	border-radius: 6px;
+	font-weight: 900;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.btn {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 6px;
+	transition: 0.1s;
+}
+.btn:hover {
+	background-color: #fb837b;
+}
+section {
+	background-image: url("tablecloth_hor.jpg");
+	background-size: cover;
+	background-attachment: scroll;
+	opacity: 0.7;
+	min-height: 900px;
+	display: flex;
+	justify-content: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#description {
+	width: 60%;
+	opacity: 1;
+	background-color: #fae5de;
+	padding: 60px;
+	font-size: 30px;
+	font-family: "Josefin Sans", sans-serif;
+	letter-spacing: 1px;
+	min-width: 500px;
+	text-align: center;
+}
+#description p {
+	font-size: 40px;
+	margin: auto;
+	text-align: center;
+	font-weight: 600;
+}
+#description > span {
+	text-align: center;
+	display: block;
+	width: 100%;
+	align-items: center;
+}
+
+footer {
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: #fc443c;
+	font-weight: bold;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: large;
+}
+img {
+	height: 150px;
+}
+a:link {
+	text-decoration: none;
+}
+
+#hours {
+	width: 400px;
+	margin: auto;
+}
+
+.center {
+	width: 400px;
+	margin: auto;
+	text-align: center;
+}
+
+#menu {
+	width: 60%;
+	opacity: 1;
+	background-color: #fae5de;
+	padding: 30px;
+	font-size: 30px;
+	font-family: "Josefin Sans", sans-serif;
+	letter-spacing: 1px;
+	min-width: 500px;
+	text-align: center;
+	display: flex;
+	/* flex-direction: column; */
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.menu-element {
+	padding: 20px;
+	max-width: 50%;
+	min-width: 490px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: #f84d44;
+	color: wheat;
+	border-radius: 30px;
+	height: 300px;
+	font-size: 25px;
+	margin: 20px;
+}
+
+.menu-element > img {
+	height: 80%;
+}
+.pizza-description {
+	height: 100%;
+	width: 100%;
+	/* display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column; */
+	text-align: left;
+	padding: 20px;
+}
+
+ul {
+	text-align: left;
+}
+
+.pizza-description > h4 {
+	padding-left: 15px;
+}
